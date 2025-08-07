@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=alternate_email,arrow_upward,dehaze" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Cryptxev</title>
+</head>
+<body>
+    <header id="header" class="mobile">
+         <h1 class="uName">Cryptxev</h1>
+         <button onclick="showMenu()"><span class="material-symbols-outlined">dehaze</span></button>
+         <div id="dropdown">
+            <a href="#about" class="scroll">O mně</a>
+            <a href="#projects" class="scroll">Projekty</a>
+            <a href="#contact" class="scroll">Kontakt</a>
+         </div>
+    </header>
+    <header id="header" class="desktop">
+        <h1 class="uName">Cryptxev</h1>
+        <b>Software Development</b>
+        <div class="links">
+            <a href="#about" class="scroll">O mně</a>
+            <a href="#projects" class="scroll">Projekty</a>
+            <a href="#contact" class="scroll">Kontakt</a>
+            </div>
+    </header>
+    <a href="#" class="toTop"><span class="material-symbols-outlined">arrow_upward</span></a>
+    <main>
+        <section id="intro">
+            <h1>
+                Ahoj, jsem Cryptxev 
+                <br> 
+                Software Developer
+            </h1>
+            <h3>Developing fullstack &amp; writing clean code</h3>
+        </section>
+        <a class="projectButton scroll" href="#projects">Prodívejte se na mé projekty</a>
+        <section id="about" class="scroll">
+            <div class="profile">
+                 <h1>> whoami</h1>
+                <table>
+                <tr><td>Jméno:</td><td>Cryptxev</td></tr>
+                <tr><td>Status:</td><td>Available for projects</td></tr>
+                <tr><td>Zkušenosti:</td><td>C++ | C# | Python | HTML | CSS | JS | PHP</td></tr>
+                </table>
+            </div>
+            <div class="offer">
+                <h1>> mission</h1>
+                <ul>
+                    <li>Psát funkční, čístý kód</li>
+                    <li>Stavět moderní weby a aplikace</li>
+                    <li>Rychlé dodání</li>
+                    <li>Pomáhat vám urychlit práci</li>
+                </ul>
+            </div>
+        </section>
+        <section id="projects" class="scroll">
+            <h1>> projects</h1>
+                <ul>
+                    <li>SleeperAgent -  Aplikace která vypne počítač / dá do stavu hibernace / režimu spánku pokud je uživatel neaktivní | C# | <a href="https://github.com/cryptxev/SleeperAgent">GitHub</a></li>
+                </ul>
+                <p>Další projekty již brzy...</p>
+        </section>
+        <section id="contact" class="scroll">
+            <h1>> contact</h1>
+            <table>
+                <tr><td><span class="material-symbols-outlined">alternate_email</span></td><td><a href="mailto:cryptxev@protonmail.com">cryptxev@protonmail.com</a></td></tr>
+            </table>
+        </section>
+    </main>
+    
+    <footer>
+        <hr>
+        <p>&copy; 2025 Cryptxev &centerdot; Made with HTML, CSS and JavaScript</p>
+    </footer>
+</body>
+</html>
